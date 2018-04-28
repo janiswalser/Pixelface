@@ -21,9 +21,8 @@ while True:
 
 	for (x, y, w, h) in faces:
 		
-		start = [width/2, height/2]
-		amount = 6
-		bigPixel = (round(w/6))
+		amount = 12
+		bigPixel = (round(w/amount))
 		
 		startY = ((y))
  		startX = ((x))
