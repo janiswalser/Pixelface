@@ -69,3 +69,26 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+
+![](https://github.com/janiswalser/Pixelface/blob/master/assets/face.gif)
+You can also easily change the input!
+
+# Change Source
+
+**1.)** Video
+
+```
+cap = cv2.VideoCapture('name.format')
+width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
+height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+```
+
+**3.)** Picture
+
+```
+cap = cv2.imread('name.png',cv2.IMREAD_COLOR)
+height = np.size(cap, 0)
+width = np.size(cap, 1)
+```
+
