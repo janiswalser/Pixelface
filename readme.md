@@ -71,7 +71,8 @@ cv2.destroyAllWindows()
 ```
 
 
-![](https://github.com/janiswalser/Pixelface/blob/master/assets/face.gif)
+![](https://github.com/janiswalser/Pixelface/blob/master/assets/faces.gif)
+
 You can also easily change the input!
 
 # Change Source
