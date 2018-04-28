@@ -5,15 +5,15 @@
 
 It catches all faces and convert it in a Grid of Rects which are tinted with the average color of the captured video.
 
-# Usage
+## Usage
 Run the Python script and enjoy your pixeled face. 
 
 
-# Face Detection
+## Face Detection
 
 The face detection runs with OpenCV using Haar Cascades (https://docs.opencv.org/3.4.1/d7/d8b/tutorial_py_face_detection.html)
 
-# Content
+## Content
 
 **1.)** Import
 
