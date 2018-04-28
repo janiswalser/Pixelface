@@ -77,7 +77,7 @@ You can also easily change the input!
 
 # Change Source
 
-**1.)** Video
+## Video
 
 ```
 cap = cv2.VideoCapture('name.format')
@@ -85,7 +85,7 @@ width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
 height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
 ```
 
-**3.)** Picture
+## Picture
 
 ```
 cap = cv2.imread('name.png',cv2.IMREAD_COLOR)
