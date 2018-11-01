@@ -5,7 +5,6 @@
 
 It catches all faces and convert it in a Grid of Rects which are tinted with the average color of the captured video.
 
-<<<<<<< HEAD
 # Usage
 Run the Python script and enjoy your pixeled face. 
 
@@ -73,7 +72,8 @@ cv2.destroyAllWindows()
 
 
 ![](https://github.com/janiswalser/Pixelface/blob/master/assets/face.gif)
-You can also easily change the input!
+
+
 
 # Change Source
 
