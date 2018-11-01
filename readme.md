@@ -19,7 +19,16 @@ The face detection runs with OpenCV using Haar Cascades (https://docs.opencv.org
 
 ```
 import cv2
+import sys
 import numpy as np
+import math
+import random
+
+face_cascade = cv2.CascadeClassifier("data/haarcascade_frontalface_default.xml")
+eye_cascade = cv2.CascadeClassifier("data/haarcascade_eye.xml")
+
+
+
 ```
 
 **2.)** Capture your Webcame
